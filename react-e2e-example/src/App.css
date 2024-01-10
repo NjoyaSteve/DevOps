@@ -1,0 +1,36 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+    background: #75ff98;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cypress-logo {
+    width: 1em;
+    height: auto;
+    margin-right: 0.25em;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin: 2em 4em;
+    font-size: 2em;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+.main-tagline {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
